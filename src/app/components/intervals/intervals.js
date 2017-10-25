@@ -1,0 +1,20 @@
+import React from "react";
+import "./intervals.scss";
+import Interval from "./Interval/interval.js"
+
+const Intervals = () => {
+  return <div className="intervals">
+      <Interval number={1} />
+      <Interval number={2} />
+      <Interval number={3} />
+      <Interval number={4} />
+      <Interval number={5} />
+      <Interval number={6} />
+      <Interval number={7} />
+      <Interval number={8} />
+      <Interval number={9} />
+      <Interval number={10} />
+    </div>;
+}
+
+export default Intervals;

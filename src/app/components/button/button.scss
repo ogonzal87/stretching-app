@@ -1,0 +1,18 @@
+@import "../../styles/_variables.scss";
+
+.button {
+  background-color: $bright-turquoise;
+  padding: 1em 2em;
+  border-radius: 3px;
+  color: $base-secondary-color-text;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  transition: all ease-in-out .100s;
+  margin: 3em 0;
+
+  &:hover {
+    padding: 1.1em 2.1em;
+    background-color: darken($bright-turquoise, 10%);
+  }
+}

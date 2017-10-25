@@ -1,0 +1,25 @@
+@import "../../styles/_variables.scss";
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em 0;
+  font-size: 14px;
+
+  .card--exercise-name{
+    font-size: 1.5em;
+    
+  }
+
+  .card--interval-count-down {
+    font-size: 5em;
+  }
+
+  .card--total-count-down {
+    color: $base-secondary-color-text;
+    font-weight: 800;
+    font-size: 1.5em
+  }
+}

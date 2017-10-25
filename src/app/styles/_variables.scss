@@ -1,0 +1,34 @@
+$wild-strawberryred: #ff397f;
+$downriver: #0f1b5a;
+$bright-turquoise: #21F8B6;
+$cerulean-blue: #3B5B93;
+$white: #fff;
+
+//blocks
+$base-bg-color: $downriver;
+
+//text
+$base-primary-color-text: $white;
+$base-secondary-color-text: $cerulean-blue;
+$base-tertiaty-color-text: $downriver;
+
+//Fonts
+html {
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: $base-primary-color-text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient($downriver, lighten($downriver, 8%));;
+  
+}
+
+
+

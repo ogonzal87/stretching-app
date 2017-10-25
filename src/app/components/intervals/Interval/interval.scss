@@ -1,0 +1,19 @@
+@import "../../../styles/_variables.scss";
+
+.interval {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $base-tertiaty-color-text;
+  background-color: $wild-strawberryred;
+  font-weight: 600;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  padding: 1em;
+}
+
+.interval_completed {
+  @extend .interval;
+  background-color: $bright-turquoise;
+}
