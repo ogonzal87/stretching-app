@@ -6,14 +6,8 @@ class Interval extends React.Component {
     super(props);
     this.state = {
       number: props.number,
-      isCompleted: false
+      isCompleted: props.isCompleted
     };
-  }
-
-  intervalCompleted = () => {
-    this.setState({
-      isCompleted: true
-    });
   }
 
   isIntervalCompleted = () => {
@@ -22,7 +16,7 @@ class Interval extends React.Component {
 
   render() {
     return <div>
-        <div className={this.isIntervalCompleted()} onClick={this.intervalCompleted}>
+        <div className={this.isIntervalCompleted()}>
           {this.state.number}
         </div>
       </div>;
