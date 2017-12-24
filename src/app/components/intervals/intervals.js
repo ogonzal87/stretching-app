@@ -11,9 +11,8 @@ class Intervals extends React.Component {
   }
   
   render() {
-    return (
-      <div className="intervals" >
-        <Interval number={1} isCompleted={this.state.isCompleted} />
+    return <div className="intervals">
+      <Interval number={1} triggerListener={true}/>
         <Interval number={2} />
         <Interval number={3} />
         <Interval number={4} />
@@ -23,8 +22,7 @@ class Intervals extends React.Component {
         <Interval number={8} />
         <Interval number={9} />
         <Interval number={10} />
-      </div>
-    )
+      </div>;
   };
 }
 
